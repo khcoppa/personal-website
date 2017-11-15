@@ -2723,7 +2723,8 @@
 			background-attachment: scroll;
 			background-image: url("../../images/bridge-wtc.jpeg");
 			background-size: auto,							cover;
-
+			overflow: hidden;
+			height: -webkit-fill-available;
 		}
 
 			.main.style2 a {

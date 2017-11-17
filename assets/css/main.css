@@ -2512,6 +2512,31 @@
 		margin: 0 0 2em 0;
 	}
 
+	.edu-list {
+		list-style: none;
+		height: 200px;
+		display: grid;
+
+	}
+	.school {
+		height: 60px;
+	}
+	.school-logo {
+		height: 50px;
+		display: block;
+		float: left;
+		margin-right: 10px;
+	}
+	.school p {
+		line-height: 50px;
+		display: block;
+		float: left;
+	}
+
+	#footer {
+		height: 100px;
+	}
+
 /* Table */
 
 	.table-wrapper {
@@ -2728,7 +2753,7 @@
 			background-image: url("../../images/bridge-wtc.jpeg");
 			background-size: auto,							cover;
 			overflow: hidden;
-			height: -webkit-fill-available;
+			height: auto;
 		}
 
 			.main.style2 a {
@@ -2741,6 +2766,10 @@
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
 				color: #ffffff;
+			}
+
+			#darkh2 {
+				color: #565656;
 			}
 
 			.main.style2 header p {

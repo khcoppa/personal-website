@@ -2413,6 +2413,35 @@
 				text-align: center;
 			}
 
+		#none {
+			border: none;
+		}
+
+		#desc {
+			margin-bottom: 1em;
+		}
+		#proj-icons {
+			display: inline-grid;
+			margin-top: 0em;
+		}
+		#sbnb{
+			background-image: url('../images/steambnb.png');
+			background-size: cover;
+			margin-bottom: 1em;
+			border-radius: 15px;
+		}
+		#game{
+			background-image: url('../images/unidot.png');
+			background-size: cover;
+			margin-bottom: 1em;
+			border-radius: 15px;
+		}
+		#clay{
+			background-image: url('../images/classify.png');
+			background-size: contain;
+			border-radius: 15px;
+		}
+
 				ul.major-icons li .icon {
 					-moz-transform: rotate(45deg);
 					-webkit-transform: rotate(45deg);
@@ -3035,7 +3064,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #131c3a, #000080 50%, #9dc66b 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
